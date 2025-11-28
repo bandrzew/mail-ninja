@@ -4,4 +4,4 @@ description: Enforce running quality checks immediately after code edits to
 alwaysApply: true
 ---
 
-Run linter (e.g., Flake8) and unit tests (e.g., Pytest) after every code modification to ensure code quality and correctness.
+Run linter and unit tests after every source code or test code modification to ensure code quality and correctness. `autopep8 --in-place --recursive src tests && pytest`
