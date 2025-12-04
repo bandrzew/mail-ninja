@@ -1,7 +1,8 @@
 import os
-import json
 from dotenv import load_dotenv
 from openai import AzureOpenAI
+from models import MessageResponse
+
 
 class AzureOpenAIClient:
     def __init__(self):
@@ -14,38 +15,29 @@ class AzureOpenAIClient:
         self.model = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME", "")
 
     def get_response(self, user_input, style_description):
-        attempt = 0
-        max_attempts = 3
+        """Get structured response using Pydantic model"""
+        try:
+            prompt = (
+                "Zwięźle podsumuj poniższą wiadomość, określ jej priorytet i wygeneruj trzy różne odpowiedzi różniące się treścią, "
+                "każda ze swoim podsumowaniem.\n"
+                f"Styl odpowiedzi: {style_description}\n"
+                f"Treść wiadomości: {user_input}\n"
+                "Priorytet powinien być: 'niski', 'średni' lub 'wysoki'."
+            )
 
-        while attempt < max_attempts:
-            try:
-                prompt = (
-                    f"Podsumuj poniższą wiadomość, określ jej priorytet i wygeneruj trzy różne odpowiedzi w formie JSON:\n"
-                    f"Styl odpowiedzi: {style_description}\n"
-                    f"Treść wiadomości: {user_input}\n"
-                    "Format odpowiedzi:\n"
-                    '{"priority": "<niski/średni/wysoki>", "summary": "<podsumowanie>", "responses": ["<odpowiedź_1>", "<odpowiedź_2>", "<odpowiedź_3>"]}'
-                )
+            response = self.client.beta.chat.completions.parse(
+                model=self.model,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                response_format=MessageResponse,
+            )
 
-                response = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=[
-                        {
-                            "role": "user",
-                            "content": prompt
-                        }
-                    ]
-                )
-                content = response.choices[0].message.content
+            return response.choices[0].message.parsed
 
-                try:
-                    return json.loads(content)
-                except json.JSONDecodeError:
-                    print(f"Invalid JSON response: {content}")
-                    attempt += 1
-                    continue
-            except Exception as e:
-                print(f"Error in getting response: {e}")
-                attempt += 1
-
-                return None
+        except Exception as e:
+            print(f"Error in getting response: {e}")
+            return None

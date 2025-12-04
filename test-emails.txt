@@ -1,0 +1,105 @@
+-------------------------------------Formalny-------------------------------------
+
+Szanowni Państwo,
+
+Z najwyższym szacunkiem zwracam się w imieniu Aurora Logistics Sp. z o.o. z uprzejmą prośbą o przygotowanie kompleksowej oferty wdrożenia systemu CRM, obejmującej zarówno pełen zakres funkcjonalności biznesowych, jak i niezbędne integracje, migrację danych oraz szkolenia użytkowników. Pragnę podkreślić, iż projekt ma dla naszej organizacji znaczenie strategiczne: jego celem jest ujednolicenie procesów sprzedaży, obsługi klienta oraz działań marketingowych, a także zapewnienie transparentności raportowania i zgodności z obowiązującymi regulacjami.
+
+Pozwolę sobie przedstawić kluczowe oczekiwania, których realizacja stanowi warunek powodzenia przedsięwzięcia:
+
+    Moduły: zaawansowane zarządzanie lejkiem sprzedażowym, obsługa posprzedażowa (helpdesk i SLA), marketing automation, katalog produktów, obieg dokumentów oraz panel menedżerski z raportami i dashboardami.
+    Integracje: ERP (Comarch ERP XL), Microsoft 365 (Exchange/Outlook, SharePoint), Azure AD (SSO), bramka SMS i e-mail, dwukierunkowe API do naszej strony klienta.
+    Migracja danych: przeniesienie historii kontaktów, szans sprzedażowych, zgłoszeń serwisowych oraz dokumentów z obecnych źródeł (arkusze Excel oraz system „Nexus”).
+    Bezpieczeństwo i zgodność: RODO, szyfrowanie danych w spoczynku i w tranzycie, kopie zapasowe, dziennik audytu, separacja środowisk (dev/test/prod), rekomendacje dot. ISO 27001.
+    Użytkownicy i struktura: 120 licencji (60 sprzedaż, 40 serwis, 20 management), z rolami i uprawnieniami; dwa oddziały (Warszawa i Wrocław).
+    Szkolenia: warsztaty produktowe i procesowe (on-site Warszawa/Wrocław), materiały e-learningowe, sesje Q&A po starcie.
+    Utrzymanie: parametry SLA, godziny wsparcia (preferencyjnie 8:00–20:00 CET), wskaźniki dostępności i model rozwoju aplikacji (roadmapa).
+    Termin: rozpoczęcie projektu w styczniu 2026 r., uruchomienie produkcyjne nie później niż w kwietniu 2026 r.
+
+Będę wdzięczna za przedstawienie propozycji obejmującej:
+
+    Szczegółowy zakres prac (analiza, konfiguracja, development, testy, migracja, szkolenia, uruchomienie, stabilizacja).
+    Harmonogram z kamieniami milowymi.
+    Architekturę rozwiązania (cloud vs on-prem) wraz z uzasadnieniem rekomendacji.
+    Kalkulację kosztów: licencje (jednostkowo i łącznie), wdrożenie, szkolenia, utrzymanie, ewentualne koszty integracji i POC.
+    Przykładowe studia przypadków u klientów o zbliżonej skali oraz referencje.
+
+Jeśli to możliwe, proszę o wstępne demo produktu oraz propozycję terminu rozmowy w nadchodzącym tygodniu (preferencyjnie środa lub czwartek, godz. 10:00–12:00). Zapewniam, że dostarczę wszelkie dodatkowe informacje, które ułatwią przygotowanie trafnej i rzetelnej oferty.
+
+Serdecznie dziękuję za poświęcony czas i życzliwą uwagę. Z niecierpliwością oczekuję Państwa odpowiedzi.
+
+Z wyrazami szacunku
+Natalia Wysocka
+Kierowniczka Projektu „NeoCRM”
+Aurora Logistics Sp. z o.o.
+ul. Okopowa 58/72, 01-042 Warszawa
+tel. +48 512 884 302
+e-mail: natalia.wysocka@auroralogistics.pl
+www.auroralogistics.pl
+
+
+-------------------------------------Profesjonalny-------------------------------------
+
+Dzień dobry,
+
+Reprezentuję Aurora Logistics Sp. z o.o. i szukamy partnera do wdrożenia CRM. Potrzebujemy oferty obejmującej funkcjonalności sprzedażowe, obsługę klienta, marketing automation, integracje oraz migrację danych i szkolenia. Projekt ma ruszyć w styczniu 2026 r., a go-live planujemy na kwiecień 2026 r.
+
+Wymagania:
+
+    Moduły: lejek sprzedaży, helpdesk z SLA, marketing automation, obieg dokumentów, raporty i dashboardy.
+    Integracje: Comarch ERP XL, Microsoft 365, Azure AD (SSO), bramka SMS/e-mail, API do portalu klienta.
+    Migracja: przeniesienie historii kontaktów, szans, zgłoszeń i dokumentów (Excel, „Nexus”).
+    Bezpieczeństwo: zgodność z RODO, szyfrowanie, kopie zapasowe, logi audytowe, środowiska dev/test/prod.
+    Użytkownicy: 120 licencji (sprzedaż/serwis/management), dwa oddziały (Warszawa, Wrocław).
+    Szkolenia: on-site i online + materiały e-learningowe.
+    Utrzymanie: SLA, godziny wsparcia, dostępność.
+
+Prośba o:
+
+    Zakres prac i harmonogram (kamienie milowe).
+    Architektura (cloud vs on-prem) z uzasadnieniem.
+    Kosztorys (licencje, wdrożenie, integracje, szkolenia, utrzymanie).
+    Przykładowe wdrożenia i referencje.
+    Możliwość krótkiego demo oraz spotkania (śr./czw. w godz. 10:00–12:00).
+
+Jeśli potrzebują Państwo dodatkowych danych (np. szczegółowy opis procesów), chętnie je przekażę. Dziękuję i czekam na propozycję terminu oraz wstępny kosztorys.
+
+Pozdrawiam
+Natalia Wysocka
+Kierowniczka Projektu „NeoCRM”
+Aurora Logistics Sp. z o.o.
+tel. +48 512 884 302
+natalia.wysocka@auroralogistics.pl
+
+
+-------------------------------------Koleżeński-------------------------------------
+
+Cześć,
+
+Szukamy CRM dla Aurora Logistics i chcemy ogarnąć porządną ofertę na wdrożenie: sprzedaż, obsługa klienta, marketing, integracje, migracja danych, szkolenia itd. Start projektu planujemy na styczeń 2026, a produkcja na kwiecień 2026. Dajcie znać, czy możecie pomóc i w jakich widełkach kosztowych to się zamknie.
+
+Co nam jest potrzebne (w skrócie, ale konkretnie):
+
+    Sprzedaż: lejek, prognozy, pipeline, raporty.
+    Obsługa: helpdesk, SLA, baza wiedzy, zgłoszenia.
+    Marketing: automation, kampanie e-mail/SMS.
+    Integracje: Comarch ERP XL, Microsoft 365, Azure AD (SSO), bramka SMS/e-mail, API do portalu.
+    Migracja: kontakty, szanse, zgłoszenia, dokumenty (teraz mamy Excel + „Nexus”).
+    Bezpieczeństwo: RODO, szyfrowanie, backupy, audyt, oddzielne dev/test/prod.
+    Licencje: ok. 120 użytkowników (sprzedaż/serwis/management), dwa oddziały (Warszawa i Wrocław).
+    Szkolenia: on-site + online, materiały do samodzielnej nauki.
+    Utrzymanie: sensowne SLA i wsparcie (idealnie 8:00–20:00 CET).
+
+Super, jeśli podeślecie:
+
+    Zakres prac + harmonogram (kamienie milowe).
+    Propozycję architektury (cloud vs on-prem) i dlaczego akurat tak.
+    Kosztorys (licencje, wdrożenie, integracje, szkolenia, utrzymanie).
+    Case’y z podobnych wdrożeń + referencje.
+    Demo i termin krótkiej rozmowy (środa/czwartek, 10:00–12:00 jest ok).
+
+Jak czegoś brakuje, dajcie znać — doślę detale procesów i przykładowe raporty. Dzięki i czekam na info.
+
+Natalia Wysocka
+Aurora Logistics Sp. z o.o.
+tel. +48 512 884 302
+natalia.wysocka@auroralogistics.pl

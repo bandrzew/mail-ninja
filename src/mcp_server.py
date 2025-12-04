@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, Response
+from flask import Flask, request, Response
 from azure_openai_client import AzureOpenAIClient
 import yaml
 import json

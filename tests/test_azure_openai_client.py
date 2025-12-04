@@ -1,11 +1,11 @@
+from azure_openai_client import AzureOpenAIClient
 import sys
 import os
 
 # Ustawienie ścieżki do folderu src:
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+sys.path.insert(0, os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../src")))
 print("PYTHONPATH ustawiony na src:", sys.path)
-
-from azure_openai_client import AzureOpenAIClient
 
 
 def test_get_response_integration():

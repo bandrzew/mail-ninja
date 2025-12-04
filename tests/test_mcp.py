@@ -1,13 +1,14 @@
+import pytest
+from flask import json
+from mcp_server import app
 import sys
 import os
 
 # Ustawienie ścieżki do folderu src:
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+sys.path.insert(0, os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../src")))
 print("PYTHONPATH ustawiony na src:", sys.path)
 
-from mcp_server import app
-from flask import json
-import pytest
 
 @pytest.fixture
 def client():

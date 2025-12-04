@@ -7,13 +7,6 @@ styles:
       Zachowuj duży dystans i profesjonalną etykietę. 
       Wyrażaj wdzięczność, podkreślaj wagę sprawy i unikaj skrótów myślowych. 
       Na końcu stosuj zwroty typu „Z wyrazami szacunku” wraz z imieniem i nazwiskiem.
-    responses:
-      - text: "Tak, zrobię to."
-        summary: "Potwierdzenie wykonania zadania."
-      - text: "OK, ale później bo jestem zajęty."
-        summary: "Informacja o opóźnieniu."
-      - text: "To jest zadanie dla kogoś innego, zwróćcie się do X."
-        summary: "Przekazanie zadania komuś innemu."
 
   - name: Profesjonalny
     description: >
@@ -22,13 +15,6 @@ styles:
       Skupiaj się na meritum sprawy, unikaj dygresji. 
       Pisz w sposób uprzejmy, konkretny i nastawiony na rozwiązanie problemu. 
       Zakończ krótkim, neutralnym pozdrowieniem, np. „Pozdrawiam”.
-    responses:
-      - text: "Tak, zrobię to."
-        summary: "Potwierdzenie wykonania zadania."
-      - text: "OK, ale później bo jestem zajęty."
-        summary: "Informacja o opóźnieniu."
-      - text: "To jest zadanie dla kogoś innego, zwróćcie się do X."
-        summary: "Przekazanie zadania komuś innemu."
 
   - name: Koleżeński
     description: >
@@ -37,13 +23,6 @@ styles:
       Styl powinien być prosty, luźny, znajomy, ale nadal zrozumiały i nieobraźliwy. 
       Trzymaj się sedna w możliwie najmniejszej liczbie zdań. 
       Możesz używać potocznych sformułowań i skrótów typu „spoko”, „ok”, „dzięki”.
-    responses:
-      - text: "Tak, zrobię to."
-        summary: "Potwierdzenie wykonania zadania."
-      - text: "OK, ale później bo jestem zajęty."
-        summary: "Informacja o opóźnieniu."
-      - text: "To jest zadanie dla kogoś innego, zwróćcie się do X."
-        summary: "Przekazanie zadania komuś innemu."
 
   - name: Zamówiłem/am 5 drinków do śniadania
     description: >
@@ -54,11 +33,3 @@ styles:
       czy wulgarny—raczej przerysowana, nieszkodliwa zgryźliwość. 
       Styl ma brzmieć jak sympatyczny, niegroźny bełkot osoby, która przesadziła z drinkami, 
       np. przypadkowe powtórzenia, słowa zapisane fonetycznie, niepasujące metafory i pozorna konfuzja.
-    responses:
-      - text: "Tak, zrobię to."
-        summary: "Potwierdzenie wykonania zadania."
-      - text: "OK, ale później bo jestem zajęty."
-        summary: "Informacja o opóźnieniu."
-      - text: "To jest zadanie dla kogoś innego, zwróćcie się do X."
-        summary: "Przekazanie zadania komuś innemu."
-
