@@ -117,7 +117,8 @@ def main():
 
                 st.markdown("### ✉️ Treść odpowiedzi")
                 # Use Streamlit's text area for copy functionality
-                st.code(body=individual_response.content, height="stretch", wrap_lines=True)
+                st.code(body=individual_response.content,
+                        height="stretch", wrap_lines=True)
 
 
 if __name__ == "__main__":
