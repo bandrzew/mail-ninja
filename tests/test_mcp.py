@@ -1,6 +1,5 @@
 import pytest
 from flask import json
-from mcp_server import app
 import sys
 import os
 
@@ -8,6 +7,8 @@ import os
 sys.path.insert(0, os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../src")))
 print("PYTHONPATH ustawiony na src:", sys.path)
+
+from mcp_server import app
 
 
 @pytest.fixture

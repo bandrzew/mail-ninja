@@ -1,4 +1,3 @@
-from azure_openai_client import AzureOpenAIClient
 import sys
 import os
 
@@ -6,7 +5,8 @@ import os
 sys.path.insert(0, os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../src")))
 print("PYTHONPATH ustawiony na src:", sys.path)
-
+from models import MessageResponse
+from azure_openai_client import AzureOpenAIClient
 
 def test_get_response_integration():
     """Test rzeczywistej integracji z Azure OpenAI."""
@@ -16,7 +16,7 @@ def test_get_response_integration():
     response = client.get_response(user_input, "Formalny")
 
     assert response is not None
-    assert isinstance(response, dict)
-    assert "priority" in response
-    assert "summary" in response
-    assert "responses" in response
+    assert isinstance(response, MessageResponse)
+    assert response.priority is not None
+    assert response.summary is not None
+    assert response.responses is not None
